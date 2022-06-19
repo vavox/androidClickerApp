@@ -5,4 +5,4 @@
 
 
 Програмування інтерфейсів користувача. Лабораторна робота №3
-
+https://docs.google.com/document/d/1G_UwnSIwaMXCTSsrkL6azAC8sbfVcq9KyAO9sBpARAI/edit?usp=sharing
