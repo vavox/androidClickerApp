@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Clicker</string>
+    <string name="login_form_reg" />
+    <string name="login_form_login" />
+    <string name="login_form_title" />
+    <string name="registration_form_title" />
+    <string name="registration_form_register" />
+
+</resources>

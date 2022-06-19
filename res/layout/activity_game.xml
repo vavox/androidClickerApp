@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".GameActivity">
+
+
+    <Button
+        android:id="@+id/bClick"
+        android:layout_width="164dp"
+        android:layout_height="85dp"
+        android:layout_centerInParent="true"
+        android:text="Bytes" />
+
+    <TextView
+        android:id="@+id/tBps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:text="Bytes Per Click: 1"/>
+
+
+    <TextView
+        android:id="@+id/tLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:text="Current Level: 0" />
+
+    <TextView
+        android:id="@+id/tUntil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:text="Bytes Until Next Level: 100" />
+
+    <TextView
+        android:id="@+id/tBytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Current Bytes" />
+
+    <Button
+        android:id="@+id/firstUpgrade"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="70dp"
+        android:text="Intern" />
+    <Button
+        android:id="@+id/secondUpgrade"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="555dp"
+        android:layout_marginLeft="70dp"
+        android:text="Junior Developer" />
+    <Button
+        android:id="@+id/thirdUpgrade"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="605dp"
+        android:layout_marginLeft="70dp"
+        android:text="Middle Developer" />
+    <Button
+        android:id="@+id/fourthUpgrade"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="655dp"
+        android:layout_marginLeft="70dp"
+        android:text="Senior Developer" />
+
+    <TextView
+        android:id="@+id/firstCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="240dp"
+        android:text="Cost: 50" />
+
+    <TextView
+        android:id="@+id/firstQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="535dp"
+        android:text="Quantity: 0" />
+
+    <TextView
+        android:id="@+id/secondCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="240dp"
+        android:text="Cost: 100" />
+    <TextView
+        android:id="@+id/secondQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+        android:layout_marginLeft="240dp"
+        android:text="Quantity: 0" />
+
+    <TextView
+        android:id="@+id/thirdCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="240dp"
+        android:text="Cost: 300" />
+    <TextView
+        android:id="@+id/thirdQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:layout_marginLeft="240dp"
+        android:text="Quantity: 0" />
+
+    <TextView
+        android:id="@+id/fourthCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="240dp"
+        android:text="Cost: 500" />
+    <TextView
+        android:id="@+id/fourthQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="240dp"
+        android:text="Quantity: 0" />
+
+</RelativeLayout>

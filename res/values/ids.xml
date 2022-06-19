@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textLogin" type="id" />
+    <item name="bClick" type="id" />
+    <item name="tBps" type="id" />
+    <item name="tLevel" type="id" />
+    <item name="tUntil" type="id" />
+    <item name="tBytes" type="id" />
+    <item name="firstUpgrade" type="id" />
+    <item name="secondUpgrade" type="id" />
+    <item name="thirdUpgrade" type="id" />
+    <item name="fourthUpgrade" type="id" />
+    <item name="firstCost" type="id" />
+    <item name="firstQuantity" type="id" />
+    <item name="secondCost" type="id" />
+    <item name="secondQuantity" type="id" />
+    <item name="thirdCost" type="id" />
+    <item name="thirdQuantity" type="id" />
+    <item name="fourthCost" type="id" />
+    <item name="fourthQuantity" type="id" />
+    <item name="usernameEditText" type="id" />
+    <item name="fullnameEditText" type="id" />
+    <item name="bioEditText" type="id" />
+    <item name="dateEditText" type="id" />
+</resources>
