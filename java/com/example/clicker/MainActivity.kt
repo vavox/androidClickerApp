@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     var clickerApi = RetrofitHelper.getInstance().create(ClickerApi::class.java)
     var job: Job? = null
     val token = MutableLiveData<Token>()
-//    val postsLoadError = MutableLiveData<String?>()
+
     lateinit var activity_main_loginButton: Button
     lateinit var activity_main_regButton: Button
 
